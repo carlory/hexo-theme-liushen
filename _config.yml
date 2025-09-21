@@ -34,8 +34,8 @@ menu:
     留言白板: /comment/ || fa-solid fa-chalkboard
     盐焗星球: https://m.111.fun/ || fa-solid fa-basketball
   分享 || fa-solid fa-stethoscope || hide:
-    代码片段: https://gist.111.fun/ || fa-solid fa-code
-    资源分享: https://pan.111.fun/ || fa-solid fa-laptop-file
+    代码片段: https://gist.github.com/carlory || fa-solid fa-code # https://gist.carlory.me/
+    站长云盘: https://pan.carlory.me/ || fa-solid fa-laptop-file
     订阅本站: /subscribe/ || fa-solid fa-rss
   关于 || fa fa-list || hide:
     站长资料: /about/ ||  fa fa-address-card
