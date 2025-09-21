@@ -258,7 +258,7 @@ function fetchIpLocation() {
     }
 
     // 如果没有缓存或已过期，进行网络请求
-    return fetch('https://api.76.al/api/ip/query?key=这里要自己改改')
+    return fetch('https://api.nsmao.net/api/ip/query?key=BkT5KPeCQ8Px8fLEUGntPTu5Px')
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok');
@@ -301,7 +301,7 @@ function showWelcome(ipLocation) {
         return;
     }
 
-    let dist = getDistance(114.343, 30.499, ipLocation.data.lng, ipLocation.data.lat);
+    let dist = getDistance(31.22114, 121.54409, ipLocation.data.lng, ipLocation.data.lat);
     let pos = ipLocation.data.country;
     let ip = ipLocation.ip;
     let posdesc;
