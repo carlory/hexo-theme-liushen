@@ -99,5 +99,6 @@
             !=markdown(i.content)
           .shuoshuo-footer
             .shuoshuo-tags
-              each tag in i.tags
-                span.shuoshuo-tag=tag
+              if i.tags
+                each tag in i.tags
+                  span.shuoshuo-tag=tag
