@@ -4,7 +4,7 @@
 
 // 随机跳转到博客中的一篇文章
 
-console.log(' %c LiuShen %c ' + '5.0.0' + ' %c https://www.liushen.fun/', 'background:#35495e ; padding: 1px; border-radius: 3px 0 0 3px;  color: #fff', 'background:#ff9a9a ; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff', 'background:unset ; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff')
+console.log(' %c LiuShen %c ' + '5.0.0' + ' %c https://www.carlory.me/', 'background:#35495e ; padding: 1px; border-radius: 3px 0 0 3px;  color: #fff', 'background:#ff9a9a ; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff', 'background:unset ; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff')
 
 function randomPost() {
     fetch('/sitemap.xml')
