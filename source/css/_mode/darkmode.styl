@@ -72,7 +72,7 @@ if hexo-config('darkmode.enable') || hexo-config('display_mode') == 'dark'
       rgba(35, 37, 58, .3),
       rgba(35, 37, 58, .6),
       rgba(24, 40, 72, .7)), 
-      url(/config/img/dog.jpg)
+      url(/config/img/author-card-bg.webp)
 
     // 改动设置夜间模式下的背景，从配置文件中获取，如果没设置则不使用
     #web_bg
@@ -113,6 +113,9 @@ if hexo-config('darkmode.enable') || hexo-config('display_mode') == 'dark'
       &.not-top-img > #nav
         background: alpha(#121212, .8)
         box-shadow: 0 5px 6px -5px rgba(133, 133, 133, 0)
+      &.full_page
+      &.not-home-page
+        background-image: url(/config/img/default-dark.webp) !important
 
     #post-comment
       .comment-switch
