@@ -31,7 +31,7 @@ menu:
     朋友动态: /fcircle/ || fa-solid fa-circle-nodes
   留言 || fa fa-paper-plane || hide: 
     留言白板: /comment/ || fa-solid fa-chalkboard
-    提笔墨染: https://mm.carlory.me/ || fa-solid fa-pencil
+    闲言碎语: https://mm.carlory.me/ || fa-solid fa-pencil
   分享 || fa-solid fa-stethoscope || hide:
     代码片段: https://gist.github.com/carlory || fa-solid fa-code # https://gist.carlory.me/
     站长云盘: https://pan.carlory.me/ || fa-solid fa-laptop-file
