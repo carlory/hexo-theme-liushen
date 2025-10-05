@@ -17,9 +17,9 @@ nav:
   fixed: true
 
 menu:
-  导航 || fas fa-home || hide:
-    个人主页: https://www.carlory.me/ || fa-solid fa-house-flag
-    个人相册: https://xc.carlory.me/ || fa fa-camera-retro
+  # 导航 || fas fa-home || hide:
+  #   个人主页: https://www.carlory.me/ || fa-solid fa-house-flag
+  #   个人相册: https://xc.carlory.me/ || fa fa-camera-retro
   整理 || fa fa-graduation-cap || hide:
     时光卷轴: /archives/ || fas fa-archive
     文章标签: /tags/ || fas fa-tags
